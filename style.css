@@ -1,0 +1,81 @@
+:after,
+:before {
+	box-sizing: border-box;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, monospace;
+}
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.menu {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.menu li {
+	/* text-align: center; */
+	text-transform: uppercase;
+	border-bottom: 1px solid darkblue;
+	list-style-type: none;
+	text-align: center;
+}
+.menu a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.text::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(obrazky/images.png);
+    background-repeat: repeat;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.text{
+    position: relative;
+    z-index: 1;
+}
+
+.omne img  {
+    border-radius: 15px;
+    float: left;
+    padding-right: 1em;
+}
+
+/* .omne img {
+    overflow: auto;
+} */
+
+.uvod p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cenik p {
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+}
